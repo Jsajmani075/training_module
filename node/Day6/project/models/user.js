@@ -1,5 +1,5 @@
 const{DataTypes}=require("sequelize");
-const sequelize=require("../without_migration/db");
+const sequelize=require("../db");
 const User=sequelize.define("User",{
   name:{
     type:DataTypes.STRING,
@@ -9,5 +9,9 @@ const User=sequelize.define("User",{
     type:DataTypes.STRING,
     allowNull:false,
   }
-});
+},
+  {
+    timestamps: true,  
+  });
+
 module.exports=User;

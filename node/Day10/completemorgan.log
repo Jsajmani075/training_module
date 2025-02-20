@@ -1,0 +1,16 @@
+
+::1 - - [19/Feb/2025:14:00:42 +0000] "GET / HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [19/Feb/2025:14:03:42 +0000] "GET / HTTP/1.1" 200 19 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [19/Feb/2025:14:04:11 +0000] "GET /error HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [19/Feb/2025:14:04:23 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [19/Feb/2025:14:04:32 +0000] "GET /error HTTP/1.1" 500 21 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+[0mGET /error [31m500[0m 3.680 ms - 21[0m
+[0mGET /error [31m500[0m 4.011 ms - 21[0m
+GET /error 500 - 3.725 ms - ReqID: No-Request-ID
+GET / 304 - 3.154 ms - ReqID: No-Request-ID
+[0mGET /error [31m500[0m 3.528 ms - 21[0m
+GET /error 500 - 3.528 ms - ReqID: No-Request-ID
+[0mGET /error [31m500[0m 3.341 ms - 21[0m
+GET /error 500 - 3.341 ms - ReqID: No-Request-ID
+[0mGET /error [31m500[0m 3.327 ms - 21[0m
+GET /error 500 - 3.327 ms - ReqID: No-Request-ID
